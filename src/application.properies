@@ -1,0 +1,3 @@
+url=jdbc:mysql:///inventorymanagement
+user=root
+password=mysql
