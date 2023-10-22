@@ -109,6 +109,7 @@ public class InventoryMain {
 				break;
 			case 5:
 				System.out.println("Exited...");
+				UtilApp.closeResouces(connection, pstmt, resultSet);
 				System.exit(0);
 				break;
 			default:

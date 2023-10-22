@@ -14,8 +14,7 @@ public class UtilApp {
 	}
 
 	public static Connection getJdbcConnection() throws IOException, SQLException {
-		FileInputStream fis = new FileInputStream(
-				"D:\\Java Training\\JdbcInventoryManagemnetSystem\\src\\application.properies");
+		FileInputStream fis = new FileInputStream("D:\\Java Training\\JdbcProjects\\src\\application.properies");
 		Properties properties = new Properties();
 		properties.load(fis);
 
